@@ -14,14 +14,14 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='sid',
-    maintainer_email='74402307+SaltyLemonz@users.noreply.github.com',
+    maintainer_email='sid@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'Uart = r2.Uart:main'
-            'joy2twist = r2.Joy_twist:main'
+            "joy_twist = r2.joy_twist:main",
+            "uart = r2.uart:main",
         ],
     },
 )
